@@ -1,0 +1,5 @@
+c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Data.DTO\bin\Debug\PeaceApp.Data.DTO.dll
+c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Data.DTO\bin\Debug\PeaceApp.Data.DTO.pdb
+c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Data.DTO\obj\Debug\PeaceApp.Data.DTO.csprojResolveAssemblyReference.cache
+c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Data.DTO\obj\Debug\PeaceApp.Data.DTO.dll
+c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Data.DTO\obj\Debug\PeaceApp.Data.DTO.pdb

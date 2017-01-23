@@ -1,0 +1,6 @@
+c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Data.Entity\obj\Debug\PeaceApp.Data.Entity.csprojResolveAssemblyReference.cache
+c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Data.Entity\bin\Debug\PeaceApp.Data.Entity.dll.config
+c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Data.Entity\bin\Debug\PeaceApp.Data.Entity.dll
+c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Data.Entity\bin\Debug\PeaceApp.Data.Entity.pdb
+c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Data.Entity\obj\Debug\PeaceApp.Data.Entity.dll
+c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Data.Entity\obj\Debug\PeaceApp.Data.Entity.pdb
