@@ -28,5 +28,10 @@ namespace PeaceApp.UI.Web.Controllers
 
             return View();
         }
+
+        public ActionResult List()
+        {
+            StudentService.GetAllUSer();
+        }
     }
 }

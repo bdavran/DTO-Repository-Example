@@ -43,5 +43,49 @@ namespace PeaceApp.BLL.Manager.Students
 
         }
 
+        public IEnumerable<StudentDTO> GetAllUSer()
+        {
+            var students = StudentRepository.GetAll().ToList();
+
+            var studentsList = new List<StudentDTO>();
+
+            foreach (var student in students)
+            {
+                studentsList.Add(new StudentDTO
+                {
+                    Id = student.Id,
+                    Name = student.Name,
+                    LastName = student.LastName,
+                    Age = student.Age
+                });
+            }
+
+            return studentsList;
+        }
+
+        public IEnumerable<StudentDTO> Update(StudentDTO studentDto)
+        {
+            if (studentDto.Id <= 0)
+            {
+                return null;
+            }
+
+            var student = StudentRepository.GetById(studentDto.Id);
+            
+            if(student == null)
+            {
+                return null;
+            }
+
+            student.Name = studentDto.Name;
+            student.LastName = studentDto.LastName;
+
+
+            StudentRepository.Update(student);
+            StudentRepository.SaveChanges();
+
+        }
+
+
     }
 }
