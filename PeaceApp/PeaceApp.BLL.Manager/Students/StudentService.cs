@@ -63,7 +63,7 @@ namespace PeaceApp.BLL.Manager.Students
             return studentsList;
         }
 
-        public IEnumerable<StudentDTO> Update(StudentDTO studentDto)
+        public StudentDTO Update(StudentDTO studentDto)
         {
             if (studentDto.Id <= 0)
             {
@@ -76,14 +76,37 @@ namespace PeaceApp.BLL.Manager.Students
             {
                 return null;
             }
+            
 
             student.Name = studentDto.Name;
             student.LastName = studentDto.LastName;
+            student.Age = studentDto.Age;
 
 
             StudentRepository.Update(student);
             StudentRepository.SaveChanges();
 
+            return studentDto;
+
+        }
+
+        public StudentDTO Delete(StudentDTO studentDto)
+        {
+            var student = StudentRepository.GetById(studentDto.Id);
+
+            if(student == null)
+            {
+                return null;
+            }
+
+            student.Id = studentDto.Id;
+
+            StudentRepository.Delete(student);
+            StudentRepository.SaveChanges();
+
+
+
+            return studentDto;
         }
 
 

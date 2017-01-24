@@ -18,6 +18,6 @@ namespace PeaceApp.Data.Entity.Students
             Female = 2
         }
 
-        public DateTime CreatedDatetime { get; set; }
+   
     }
 }
