@@ -12,3 +12,17 @@ c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Dat
 c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Data\obj\Debug\PeaceApp.Data.pdb
 c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Data\obj\Debug\PeaceApp.Data.Migrations.Created_Database.resources
 c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Data\obj\Debug\PeaceApp.Data.csproj.GenerateResource.Cache
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\bin\Debug\PeaceApp.Data.dll.config
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\bin\Debug\PeaceApp.Data.dll
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\bin\Debug\PeaceApp.Data.pdb
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\bin\Debug\EntityFramework.dll
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\bin\Debug\PeaceApp.Data.Entity.dll
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\bin\Debug\PeaceApp.Data.Entity.pdb
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\bin\Debug\EntityFramework.xml
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\obj\Debug\PeaceApp.Data.csprojResolveAssemblyReference.cache
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\obj\Debug\PeaceApp.Data.Migrations.Created_Database.resources
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\obj\Debug\PeaceApp.Data.csproj.GenerateResource.Cache
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\obj\Debug\PeaceApp.Data.dll
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\obj\Debug\PeaceApp.Data.pdb

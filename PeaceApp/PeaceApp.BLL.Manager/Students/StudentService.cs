@@ -3,8 +3,6 @@ using PeaceApp.Data.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace PeaceApp.BLL.Manager.Students
 {
@@ -90,25 +88,26 @@ namespace PeaceApp.BLL.Manager.Students
 
         }
 
-        public StudentDTO Delete(StudentDTO studentDto)
+        public StudentDTO Delete(int studentId)
         {
-            var student = StudentRepository.GetById(studentDto.Id);
+            var student = StudentRepository.GetById(studentId);
 
             if(student == null)
             {
                 return null;
             }
 
-            student.Id = studentDto.Id;
-
             StudentRepository.Delete(student);
             StudentRepository.SaveChanges();
 
-
+            var studentDto = new StudentDTO()
+            {
+                Name = student.Name,
+                Age = student.Age,
+                LastName = student.LastName,
+            };
 
             return studentDto;
         }
-
-
     }
 }

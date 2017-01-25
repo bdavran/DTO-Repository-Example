@@ -11,3 +11,16 @@ c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.BLL
 c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.BLL.Manager\bin\Debug\EntityFramework.xml
 c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.BLL.Manager\obj\Debug\PeaceApp.BLL.Manager.dll
 c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.BLL.Manager\obj\Debug\PeaceApp.BLL.Manager.pdb
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.BLL.Manager\bin\Debug\PeaceApp.BLL.Manager.dll
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.BLL.Manager\bin\Debug\PeaceApp.BLL.Manager.pdb
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.BLL.Manager\bin\Debug\PeaceApp.Data.dll
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.BLL.Manager\bin\Debug\PeaceApp.Data.DTO.dll
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.BLL.Manager\bin\Debug\PeaceApp.Data.Entity.dll
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.BLL.Manager\bin\Debug\EntityFramework.dll
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.BLL.Manager\bin\Debug\PeaceApp.Data.DTO.pdb
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.BLL.Manager\bin\Debug\PeaceApp.Data.Entity.pdb
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.BLL.Manager\bin\Debug\PeaceApp.Data.pdb
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.BLL.Manager\bin\Debug\EntityFramework.xml
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.BLL.Manager\obj\Debug\PeaceApp.BLL.Manager.csprojResolveAssemblyReference.cache
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.BLL.Manager\obj\Debug\PeaceApp.BLL.Manager.dll
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.BLL.Manager\obj\Debug\PeaceApp.BLL.Manager.pdb

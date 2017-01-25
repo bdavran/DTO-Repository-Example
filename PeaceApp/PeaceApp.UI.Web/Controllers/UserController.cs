@@ -12,16 +12,15 @@ namespace PeaceApp.UI.Web.Controllers
     public class UserController : Controller
     {
         public StudentService StudentService;
-        public StudentDTO studentDto;
 
         public UserController()
         {
             StudentService = new StudentService();
-            studentDto = new StudentDTO();
         }
 
-        public ActionResult Home()
+        public ActionResult Home(string sortOrder)
         {
+
             return View();
         }
         // GET: Home
@@ -39,7 +38,8 @@ namespace PeaceApp.UI.Web.Controllers
 
         public ActionResult List()
         {
-            StudentService.GetAllUSer();
+            
+             StudentService.GetAllUSer();
             return View();
         }
 
@@ -58,10 +58,10 @@ namespace PeaceApp.UI.Web.Controllers
 
         public ActionResult Delete()
         {
-            StudentService.Delete(new StudentDTO()
-            {
-                Id = 3
-            });
+            //StudentService.Delete(new StudentDTO()
+            //{
+            //    Id = 3
+            //});
 
             return View();
         }
