@@ -41,7 +41,7 @@ namespace PeaceApp.BLL.Manager.Students
 
         }
 
-        public IEnumerable<StudentDTO> GetAllUSer()
+        public IEnumerable<StudentDTO> GetAll()
         {
             var students = StudentRepository.GetAll().ToList();
 
