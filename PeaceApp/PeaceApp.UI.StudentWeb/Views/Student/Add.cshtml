@@ -1,17 +1,25 @@
-﻿
+﻿@model PeaceApp.Data.Entity.Students.StudentDTO
+
 @{
-    Layout = null;
+    ViewBag.Title = "Add Student";
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<!DOCTYPE html>
 
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Add</title>
-</head>
-<body>
-    <div> 
-    </div>
-</body>
-</html>
+<form action="/Student/AdSudent" method="post">
+    <fieldset>
+        <legend>Personal information:</legend>
+        First name:
+        <br>
+        <input type="text" name=@Model.Name value="Mickey"><br>
+        Last name:
+        <br>
+        <input type="text" name=@Model.LastName value="Mouse"><br>
+        <br>
+        Age:
+        <br>
+        <input type="text" name=@Model.Age value="Mouse"><br>
+        <input type="submit" value="Add">
+    </fieldset>
+</form>

@@ -3,3 +3,10 @@ c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Dat
 c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Data.DTO\obj\Debug\PeaceApp.Data.DTO.csprojResolveAssemblyReference.cache
 c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Data.DTO\obj\Debug\PeaceApp.Data.DTO.dll
 c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Data.DTO\obj\Debug\PeaceApp.Data.DTO.pdb
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data.DTO\bin\Debug\PeaceApp.Data.DTO.dll
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data.DTO\bin\Debug\PeaceApp.Data.DTO.pdb
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data.DTO\bin\Debug\PeaceApp.Data.Entity.dll
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data.DTO\bin\Debug\PeaceApp.Data.Entity.pdb
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data.DTO\obj\Debug\PeaceApp.Data.DTO.csprojResolveAssemblyReference.cache
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data.DTO\obj\Debug\PeaceApp.Data.DTO.dll
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data.DTO\obj\Debug\PeaceApp.Data.DTO.pdb

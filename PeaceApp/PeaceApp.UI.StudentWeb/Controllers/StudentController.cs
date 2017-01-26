@@ -29,20 +29,25 @@ namespace PeaceApp.UI.StudentWeb.Controllers
 
             return View(studentViewModel);
         }
-
-        [HttpGet]
-        public ActionResult Add()
+        public ActionResult Delete()
         {
+            studentService.Delete(5);
+
             return View();
         }
 
+        public ViewResult Add()
+        {
+            return View(new StudentDTO());
+        }
 
         [HttpPost]
         public ActionResult Add(StudentDTO student)
         {
+
+            
             studentService.Add(student);
-
-
+            
             return View();
         }
 

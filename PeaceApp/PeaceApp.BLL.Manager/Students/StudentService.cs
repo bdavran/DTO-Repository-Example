@@ -53,7 +53,7 @@ namespace PeaceApp.BLL.Manager.Students
                 {
                     Id = student.Id,
                     Name = student.Name,
-                    LastName = student.LastName,
+                    LastName = student.LastName,                    
                     Age = student.Age
                 });
             }

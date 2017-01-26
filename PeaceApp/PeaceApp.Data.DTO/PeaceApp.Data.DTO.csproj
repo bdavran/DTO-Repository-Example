@@ -43,6 +43,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Students\StudentDTO.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PeaceApp.Data.Entity\PeaceApp.Data.Entity.csproj">
+      <Project>{83d9e50c-5d3a-43dd-b12b-44a3e7d0844b}</Project>
+      <Name>PeaceApp.Data.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -21,6 +21,7 @@ namespace PeaceApp.Data.Entity.Students
             Male = 1,
             Female = 2
         }
+        
 
         public DateTime CreatedDatetime { get; set; }
     }
