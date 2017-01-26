@@ -37,7 +37,10 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="~/Views/Student/Add.cshtml">Add New Student</a>
+                        <a onclick="location.href='@Url.Action("Index","Student")' ">Student List </a>
+                    </li>
+                    <li>
+                        <a onclick="location.href='@Url.Action("Add","Student")' " >Add New Student</a>
                     </li>
                     <li>
                         <a href="#">Add New Course</a>

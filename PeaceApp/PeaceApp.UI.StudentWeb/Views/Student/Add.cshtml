@@ -7,19 +7,19 @@
 }
 
 
-<form action="/Student/AdSudent" method="post">
-    <fieldset>
+<form action="/Student/Add" method="post">
+    <fieldset class="scheduler-border">
         <legend>Personal information:</legend>
         First name:
         <br>
-        <input type="text" name=@Model.Name value="Mickey"><br>
+        <input class="control-label input-label" type="text" name=@Model.Name value=""><br>
         Last name:
         <br>
-        <input type="text" name=@Model.LastName value="Mouse"><br>
+        <input class="control-label input-label" type="text" name=@Model.LastName value=""><br>
         <br>
         Age:
         <br>
-        <input type="text" name=@Model.Age value="Mouse"><br>
-        <input type="submit" value="Add">
+        <input class="control-label input-label" type="text" name=@Model.Age value=""><br>
+        <input type="submit" value="Create">
     </fieldset>
 </form>

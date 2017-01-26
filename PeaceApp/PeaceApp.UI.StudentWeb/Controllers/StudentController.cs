@@ -46,9 +46,10 @@ namespace PeaceApp.UI.StudentWeb.Controllers
         {
 
             
-            studentService.Add(student);
+            var addStudent = studentService.Add(student);
             
-            return View();
+            
+            return View(addStudent);
         }
 
     }
