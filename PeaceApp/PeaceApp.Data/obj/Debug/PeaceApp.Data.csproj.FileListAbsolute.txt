@@ -22,7 +22,7 @@ C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.D
 C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\bin\Debug\EntityFramework.xml
 C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\obj\Debug\PeaceApp.Data.csprojResolveAssemblyReference.cache
-C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\obj\Debug\PeaceApp.Data.Migrations.Created_Database.resources
-C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\obj\Debug\PeaceApp.Data.csproj.GenerateResource.Cache
 C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\obj\Debug\PeaceApp.Data.dll
 C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\obj\Debug\PeaceApp.Data.pdb
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\obj\Debug\PeaceApp.Data.Migrations.intiliaze_database.resources
+C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data\obj\Debug\PeaceApp.Data.csproj.GenerateResource.Cache

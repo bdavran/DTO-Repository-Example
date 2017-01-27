@@ -7,6 +7,5 @@ c:\users\packerdbell\documents\visual studio 2015\Projects\PeaceApp\PeaceApp.Dat
 C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data.Entity\bin\Debug\PeaceApp.Data.Entity.dll.config
 C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data.Entity\bin\Debug\PeaceApp.Data.Entity.dll
 C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data.Entity\bin\Debug\PeaceApp.Data.Entity.pdb
-C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data.Entity\obj\Debug\PeaceApp.Data.Entity.csprojResolveAssemblyReference.cache
 C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data.Entity\obj\Debug\PeaceApp.Data.Entity.dll
 C:\Users\PackerdBell\Documents\GitHub\DTO-Repository-Example\PeaceApp\PeaceApp.Data.Entity\obj\Debug\PeaceApp.Data.Entity.pdb

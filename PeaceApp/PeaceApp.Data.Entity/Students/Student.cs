@@ -1,4 +1,6 @@
-﻿using System;
+﻿using PeaceApp.Data.Entity.CoursesAndStudents;
+using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace PeaceApp.Data.Entity.Students
@@ -15,14 +17,10 @@ namespace PeaceApp.Data.Entity.Students
         public string LastName { get; set; }
 
         public int Age { get; set; }
-
-        public enum Gender
-        {
-            Male = 1,
-            Female = 2
-        }
-        
+       
 
         public DateTime CreatedDatetime { get; set; }
+
+        public virtual ICollection<CoursesInStudents> CoursesInStudents { get; set; }
     }
 }

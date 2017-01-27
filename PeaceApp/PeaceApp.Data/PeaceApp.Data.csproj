@@ -50,9 +50,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\PeacAppContext.cs" />
-    <Compile Include="Migrations\201701231436384_Created_Database.cs" />
-    <Compile Include="Migrations\201701231436384_Created_Database.Designer.cs">
-      <DependentUpon>201701231436384_Created_Database.cs</DependentUpon>
+    <Compile Include="Migrations\201701271036504_intiliaze_database.cs" />
+    <Compile Include="Migrations\201701271036504_intiliaze_database.Designer.cs">
+      <DependentUpon>201701271036504_intiliaze_database.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -69,12 +69,12 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201701231436384_Created_Database.resx">
-      <DependentUpon>201701231436384_Created_Database.cs</DependentUpon>
-    </EmbeddedResource>
+    <Folder Include="SqlScripts\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="SqlScripts\" />
+    <EmbeddedResource Include="Migrations\201701271036504_intiliaze_database.resx">
+      <DependentUpon>201701271036504_intiliaze_database.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
