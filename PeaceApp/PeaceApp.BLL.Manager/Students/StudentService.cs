@@ -1,4 +1,5 @@
-﻿using PeaceApp.Data.Entity.Students;
+﻿using PeaceApp.Data.Entity.CoursesAndStudents;
+using PeaceApp.Data.Entity.Students;
 using PeaceApp.Data.Repositories;
 using System;
 using System.Collections.Generic;
@@ -28,7 +29,8 @@ namespace PeaceApp.BLL.Manager.Students
                 Name = studentDto.Name,
                 Age = studentDto.Age,
                 LastName = studentDto.LastName,
-                CreatedDatetime = DateTime.Now
+                CreatedDatetime = DateTime.Now,
+                CoursesInStudents = new List<CoursesInStudents>()
             };
 
             StudentRepository.Add(student);

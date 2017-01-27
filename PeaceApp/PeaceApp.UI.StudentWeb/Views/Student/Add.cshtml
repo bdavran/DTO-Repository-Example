@@ -6,20 +6,42 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+@using (Html.BeginForm("Add", "Student", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.Name, "Name", new { @class = "control-label" })
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.LastName, "Surname", new { @class = "control-label" })
+        @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+    </div>
 
-<form action="/Student/Add" method="post">
-    <fieldset class="scheduler-border">
-        <legend>Personal information:</legend>
-        First name:
-        <br>
-        <input class="control-label input-label" type="text" name=@Model.Name value=""><br>
-        Last name:
-        <br>
-        <input class="control-label input-label" type="text" name=@Model.LastName value=""><br>
-        <br>
-        Age:
-        <br>
-        <input class="control-label input-label" type="text" name=@Model.Age value=""><br>
-        <input type="submit" value="Create">
-    </fieldset>
-</form>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Age, "Age", new { @class = "control-label" })
+        @Html.TextBoxFor(m => m.Age, new { @class = "form-control", @type="number" })
+    </div>
+
+    <input class="btn-primary" type="submit" value="Create" />
+}
+
+@*<form action="/Student/Add" method="post">
+        <fieldset class="scheduler-border">
+            <legend>Personal information:</legend>
+            First name:
+            <br>
+            <input id=""><br>
+            Last name:
+            <br>
+            <input class="control-label input-label" type="text" name="LastName" value=""><br>
+            <br>
+            Age:
+            <br>
+            <input class="control-label input-label" type="number" name="Age"><br>
+            <input type="submit" value="Create">
+        </fieldset>
+    </form>*@
+
+
+
+

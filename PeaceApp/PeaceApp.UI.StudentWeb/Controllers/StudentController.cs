@@ -13,6 +13,7 @@ namespace PeaceApp.UI.StudentWeb.Controllers
     {
         private StudentService studentService;
 
+
         public StudentController()
         {
             studentService = new StudentService();
@@ -23,17 +24,19 @@ namespace PeaceApp.UI.StudentWeb.Controllers
 
             var studentViewModel = new StudentViewModel()
             {
-                Students = studentService.GetAll()
+                StudentsList = studentService.GetAll()
                 
             };
 
             return View(studentViewModel);
         }
-        public ActionResult Delete()
-        {
-            studentService.Delete(5);
 
-            return View();
+        [HttpPost]
+        public ActionResult Delete(int id)
+        {
+            var delete = studentService.Delete(id);
+
+            return View(delete);
         }
 
         public ViewResult Add()
@@ -44,8 +47,6 @@ namespace PeaceApp.UI.StudentWeb.Controllers
         [HttpPost]
         public ActionResult Add(StudentDTO student)
         {
-
-            
             var addStudent = studentService.Add(student);
             
             

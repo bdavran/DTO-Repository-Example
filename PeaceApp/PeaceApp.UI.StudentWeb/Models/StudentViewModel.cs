@@ -8,10 +8,12 @@ namespace PeaceApp.UI.StudentWeb.Models
 {
     public class StudentViewModel
     {
-        public IEnumerable<StudentDTO> Students { get; set; }
+        public IEnumerable<StudentDTO> StudentsList { get; set; }
         
 
-       
+
+
+
 
     }
 }

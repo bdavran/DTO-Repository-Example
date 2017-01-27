@@ -5,40 +5,48 @@
 
 <!DOCTYPE html>
 
-<html>
-<head>
-    
-    <title>Student List</title>
+<table class="table">
+    <thead class="thread inver">
 
-    <link href="~/Assets/css/bootstrap.css" rel="stylesheet" />
-    <link href="~/Assets/css/bootstrap.min.css" rel="stylesheet" />
-</head>
-<body>
-    
-    <div class="container">
-        <table class="table table-bordered">
-    <thead>
         <tr>
+
             <th>Name</th>
-            <th>LastName</th>
+            <th>Surname</th>
             <th>Age</th>
         </tr>
+
+
+
     </thead>
+
     <tbody>
-        @foreach (var student in Model.Students)
-            {
+
+        @foreach (var student in Model.StudentsList)
+        {
             <tr>
-                <td>@student.Name</td>
-                <td>@student.LastName</td>
-                <td>@student.Age</td>
+                <td>
+                    @Html.DisplayFor(modelItem => student.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => student.LastName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => student.Age)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { Id = student.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { Id = student.Id }, new { @class = "control-label" })
+                </td>
+
+
             </tr>
+
         }
+
+
     </tbody>
 </table>
-    </div>
-    
 
 
-   
-</body>
-</html>
+
+
