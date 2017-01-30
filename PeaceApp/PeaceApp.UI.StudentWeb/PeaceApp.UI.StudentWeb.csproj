@@ -158,6 +158,7 @@
     <Content Include="Assets\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Views\Student\Add.cshtml" />
     <Content Include="Views\Student\Delete.cshtml" />
+    <Content Include="Views\Student\Update.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -180,6 +181,10 @@
     <ProjectReference Include="..\PeaceApp.Data.Entity\PeaceApp.Data.Entity.csproj">
       <Project>{83d9e50c-5d3a-43dd-b12b-44a3e7d0844b}</Project>
       <Name>PeaceApp.Data.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PeaceApp.Data\PeaceApp.Data.csproj">
+      <Project>{5EEF820C-D87C-4781-ADF3-0923621E0D51}</Project>
+      <Name>PeaceApp.Data</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

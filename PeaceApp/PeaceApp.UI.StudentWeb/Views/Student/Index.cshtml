@@ -34,19 +34,33 @@
                     @Html.DisplayFor(modelItem => student.Age)
                 </td>
                 <td>
-                    @Html.ActionLink("Edit", "Edit", new { Id = student.Id }) |
-                    @Html.ActionLink("Delete", "Delete", new { Id = student.Id }, new { @class = "control-label" })
+                    @Html.ActionLink("Update", "Update", new { studentId = student.Id }) |
+                    <a class="remove" data-id="@student.Id" href="javascript:void(0)">Sil</a>
                 </td>
-
-
             </tr>
-
         }
-
-
     </tbody>
 </table>
 
+@section Scripts
+{
+    <script>
+        $(function () {
+            $("a.remove").click(function () {
+                var element = $(this);
+                var studentID = element.data("id");
 
-
+                $.ajax({
+                    type: "POST",
+                    contentType: "application/json; charset=utf-8",
+                    url: "@Url.Action("Delete")",
+                    data: JSON.stringify({ studentID }),
+                    success: function () {
+                    },
+                    dataType: "json"
+                });
+            });
+        })
+    </script>
+}
 

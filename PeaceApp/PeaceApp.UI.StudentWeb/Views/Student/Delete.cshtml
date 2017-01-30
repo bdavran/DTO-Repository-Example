@@ -3,23 +3,10 @@
 @{
     ViewBag.Title = "Delete Student";
 
-    Layout = "~/Views/Shared/_Layout.cshtml";
+   
 }
 
-@using (Html.BeginForm("Delete", "Student", FormMethod.Post))
-{ 
-    <div class="label-default">
-        @Html.DisplayFor(m => m.Name, "Name: ", new { @class = "control-label" })
-    </div>
-    <div class="label-default">
-        @Html.DisplayFor(m => m.LastName, "Surname: ", new { @class = "control-label" })
-    </div>
-    <div class="label-default">
-        @Html.DisplayFor(m => m.Age, "Age", new { @class = "control-label" })
-    </div>
 
-    <input class="btn-primary" type="submit" value="Delete" />   
-   }
 
 
 

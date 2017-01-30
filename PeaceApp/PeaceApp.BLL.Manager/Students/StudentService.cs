@@ -111,5 +111,25 @@ namespace PeaceApp.BLL.Manager.Students
 
             return studentDto;
         }
+
+        public StudentDTO Get(int studentId)
+        {
+            var student = StudentRepository.GetById(studentId);
+
+            if (student == null)
+            {
+                return null;
+            }
+
+            var studentDto = new StudentDTO()
+            {
+                Id = student.Id,
+                Name = student.Name,
+                Age = student.Age,
+                LastName = student.LastName,
+            };
+
+            return studentDto;
+        }
     }
 }

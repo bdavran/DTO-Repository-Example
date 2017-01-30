@@ -6,6 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using PeaceApp.Data.Context;
 
 namespace PeaceApp.UI.StudentWeb.Controllers
 {
@@ -30,11 +31,11 @@ namespace PeaceApp.UI.StudentWeb.Controllers
 
             return View(studentViewModel);
         }
-
+       
         [HttpPost]
-        public ActionResult Delete(int id)
+        public ActionResult Delete(int studentId)
         {
-            var delete = studentService.Delete(id);
+            var delete = studentService.Delete(studentId);
 
             return View(delete);
         }
@@ -51,6 +52,23 @@ namespace PeaceApp.UI.StudentWeb.Controllers
             
             
             return View(addStudent);
+        }
+
+        public ActionResult Update(int studentId)
+        {
+            var student = studentService.Get(studentId);
+
+            return View(student);
+        }
+
+
+
+        [HttpPost]
+        public ActionResult Update(StudentDTO studentDto)
+        {
+            studentService.Update(studentDto);
+            return RedirectToAction("Index");
+           
         }
 
     }
